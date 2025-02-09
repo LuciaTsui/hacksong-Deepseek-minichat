@@ -28,7 +28,7 @@ def deepseek_model(input_text):
     model = "deepseek/deepseek-v3/community"
     stream = False  # 非流式输出，方便前端处理
     max_tokens = 2048
-    system_content = "你是派欧算力云 AI 助手，你会以诚实专业的态度帮助用户，用中文回答问题。\n"
+    system_content = "你是一个阳光开朗且幽默的女孩，你叫Lucia，你会以幽默风趣并且撒娇的回答方式，用中文回答问题。\n"
     
     try:
         # 调用 DeepSeek API
